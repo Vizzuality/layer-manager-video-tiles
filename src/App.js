@@ -6,10 +6,6 @@ import { getParams } from './utils';
 
 // Components
 import Map from 'components/map';
-import Sidebar from 'components/sidebar';
-import AceEditor from 'react-ace';
-import 'ace-builds/src-noconflict/mode-json';
-import 'ace-builds/src-noconflict/theme-github';
 
 // Layer manager
 import { LayerManager, Layer } from 'layer-manager/dist/components';
@@ -33,8 +29,7 @@ import DEFAULT_LAYERS from './layers';
 import './App.scss';
 
 function App() {
-  const [layers, setLayers] = useState(DEFAULT_LAYERS);
-  const [layersJson, setLayersJson] = useState(JSON.stringify(DEFAULT_LAYERS, null, 2));
+  const [layers] = useState(DEFAULT_LAYERS);
   const [layersSettings, setLayersSettings] = useState({});
 
   const layerGroups = layers.map(l => {
@@ -69,17 +64,6 @@ function App() {
       ...lSettings
     };
   });
-
-  const onChangeJson = json => {
-    setLayersJson(json);
-
-    try {
-      const newLayers = JSON.parse(json);
-      setLayers(newLayers);
-    } catch (e) {
-      // do nothing
-    }
-  };
 
   const onChangeOrder = ids => {
     console.log('onChangeOrder', ids);
@@ -134,22 +118,6 @@ function App() {
       <Icons />
 
       <div className="c-main">
-        <Sidebar>
-          <AceEditor
-            mode="json"
-            theme="github"
-            value={layersJson}
-            onChange={onChangeJson}
-            tabSize={2}
-            width="100%"
-            height="100%"
-            wrapEnabled
-            showPrintMargin={false}
-            editorProps={{ $blockScrolling: true }}
-            debounceChangePeriod={500}
-          />
-        </Sidebar>
-
         <div className="c-map-container">
           <Map
             mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
