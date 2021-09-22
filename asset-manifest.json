@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/layer-manager/static/css/main.ddb06faa.chunk.css",
-    "main.js": "/layer-manager/static/js/main.2e7cf328.chunk.js",
-    "main.js.map": "/layer-manager/static/js/main.2e7cf328.chunk.js.map",
-    "runtime~main.js": "/layer-manager/static/js/runtime~main.71cba66f.js",
-    "runtime~main.js.map": "/layer-manager/static/js/runtime~main.71cba66f.js.map",
-    "static/css/2.3b80cb7c.chunk.css": "/layer-manager/static/css/2.3b80cb7c.chunk.css",
-    "static/js/2.9d835f4d.chunk.js": "/layer-manager/static/js/2.9d835f4d.chunk.js",
-    "static/js/2.9d835f4d.chunk.js.map": "/layer-manager/static/js/2.9d835f4d.chunk.js.map",
-    "index.html": "/layer-manager/index.html",
-    "precache-manifest.f81594870f41b9f9e47f3989a7157e47.js": "/layer-manager/precache-manifest.f81594870f41b9f9e47f3989a7157e47.js",
-    "service-worker.js": "/layer-manager/service-worker.js",
-    "static/css/2.3b80cb7c.chunk.css.map": "/layer-manager/static/css/2.3b80cb7c.chunk.css.map",
-    "static/css/main.ddb06faa.chunk.css.map": "/layer-manager/static/css/main.ddb06faa.chunk.css.map"
+    "main.css": "/layer-manager-video-tiles/static/css/main.ddb06faa.chunk.css",
+    "main.js": "/layer-manager-video-tiles/static/js/main.5cc5d5ba.chunk.js",
+    "main.js.map": "/layer-manager-video-tiles/static/js/main.5cc5d5ba.chunk.js.map",
+    "runtime~main.js": "/layer-manager-video-tiles/static/js/runtime~main.b8123ddd.js",
+    "runtime~main.js.map": "/layer-manager-video-tiles/static/js/runtime~main.b8123ddd.js.map",
+    "static/css/2.3b80cb7c.chunk.css": "/layer-manager-video-tiles/static/css/2.3b80cb7c.chunk.css",
+    "static/js/2.4aa473e4.chunk.js": "/layer-manager-video-tiles/static/js/2.4aa473e4.chunk.js",
+    "static/js/2.4aa473e4.chunk.js.map": "/layer-manager-video-tiles/static/js/2.4aa473e4.chunk.js.map",
+    "index.html": "/layer-manager-video-tiles/index.html",
+    "precache-manifest.689bdb444d4593a7f3fe9528ae79d74f.js": "/layer-manager-video-tiles/precache-manifest.689bdb444d4593a7f3fe9528ae79d74f.js",
+    "service-worker.js": "/layer-manager-video-tiles/service-worker.js",
+    "static/css/2.3b80cb7c.chunk.css.map": "/layer-manager-video-tiles/static/css/2.3b80cb7c.chunk.css.map",
+    "static/css/main.ddb06faa.chunk.css.map": "/layer-manager-video-tiles/static/css/main.ddb06faa.chunk.css.map"
   }
 }
